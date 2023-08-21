@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine, MetaData
 
 engine = create_engine(
-    "mysql+pymysql://root:password@mysql-service:3306/storedb")
+    "mysql+pymysql://root:azerty@mysql-service:3306/storedb")
 
 meta = MetaData()
 
